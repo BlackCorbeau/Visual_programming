@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+var4_pr1/
+obj/
