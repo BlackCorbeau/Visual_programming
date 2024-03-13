@@ -1,0 +1,13 @@
+
+
+Faculty: Ремизов К.Л.
+Dean's Name: Иванов Иван Иванович
+Abbriviation: ПИНЖ
+
+Faculty: Time
+Dean's Name: Ivan
+Abbriviation: IITMM
+
+Faculty: Time
+Dean's Name: Ivan
+Abbriviation: IITMM
