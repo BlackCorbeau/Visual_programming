@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{45B83804-7B73-4287-B1DF-1A0709F273A0}|work2_var2\\work2_var2.csproj|solutionrelative:work2_var2\\picture_list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45B83804-7B73-4287-B1DF-1A0709F273A0}|work2_var2\\work2_var2.csproj|C:\\Users\\woron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\Code\\Visual_programming\\work2_var2\\work2_var2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45B83804-7B73-4287-B1DF-1A0709F273A0}|work2_var2\\work2_var2.csproj|solutionrelative:work2_var2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45B83804-7B73-4287-B1DF-1A0709F273A0}|work2_var2\\work2_var2.csproj|C:\\Users\\woron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\Code\\Visual_programming\\work2_var2\\work2_var2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{45B83804-7B73-4287-B1DF-1A0709F273A0}|work2_var2\\work2_var2.csproj|solutionrelative:work2_var2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B83804-7B73-4287-B1DF-1A0709F273A0}|work2_var2\\work2_var2.csproj|C:\\Users\\woron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\Code\\Visual_programming\\work2_var2\\work2_var2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B83804-7B73-4287-B1DF-1A0709F273A0}|work2_var2\\work2_var2.csproj|solutionrelative:work2_var2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45B83804-7B73-4287-B1DF-1A0709F273A0}|work2_var2\\work2_var2.csproj|C:\\Users\\woron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\Code\\Visual_programming\\work2_var2\\work2_var2\\backend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "work2_var2\\backend.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T10:51:12.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T10:51:12.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\woron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\Code\\Visual_programming\\work2_var2\\work2_var2\\Form1.cs",
               "RelativeDocumentMoniker": "work2_var2\\Form1.cs",
@@ -62,14 +61,14 @@
               "RelativeDocumentMoniker": "work2_var2\\picture_list.cs",
               "ToolTip": "C:\\Users\\woron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\Code\\Visual_programming\\work2_var2\\work2_var2\\picture_list.cs",
               "RelativeToolTip": "work2_var2\\picture_list.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAACoAAAAqAAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAqwIgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T09:24:41.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\woron\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\Code\\Visual_programming\\work2_var2\\work2_var2\\Form1.cs",
               "RelativeDocumentMoniker": "work2_var2\\Form1.cs",

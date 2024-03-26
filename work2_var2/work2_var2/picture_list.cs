@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,9 @@ namespace WinFormsDraw
         PictureBox pic1;
         String mode_pic;
         backend_for_Picture_list back = new backend_for_Picture_list();
-        Graphics g; 
+        Graphics g;
+        Button but1;
+        Button but2;
 
         public Picture_list(int x, int y, int w, int h, Form1 form)
         {
@@ -55,8 +58,31 @@ namespace WinFormsDraw
             pic1.Top = y + comboBox1.Top;
             form.Controls.Add(pic1);
 
+            but1 = new Button();
+            if (comboBox1.SelectedIndex == 0)
+            {
+                but1.Visible = false;
+            }
+            but1.Width = w / 4;
+            but1.Height = h / 12;
+            but1.Left = x + dx;
+            but1.Top = y + h - but1.Height - dx;
+            but1.Text = "<-";
+            but1.Click += But1_Click;
+            form.Controls.Add(but1);
 
-
+            but2 = new Button();
+            if (comboBox1.SelectedIndex == 9)
+            {
+                but2.Visible = false;
+            }
+            but2.Width = w / 4;
+            but2.Height = h / 12;
+            but2.Left = x + 92 * dx;
+            but2.Top = y + h - but2.Height - dx;
+            but2.Text = "->";
+            but2.Click += But2_Click;
+            form.Controls.Add(but2);
             mode_pic = "";
         }
 
@@ -70,6 +96,46 @@ namespace WinFormsDraw
             Graphics gp = pic1.CreateGraphics();
             string adress = back.Initialize_picture(comboBox1.SelectedIndex);
             Bitmap bitmap = (Bitmap)Bitmap.FromFile(adress);
-            gp.DrawImage(bitmap, pic1.Left - 10 * dx, pic1.Top - 20 * dx, pic1.Width, pic1.Height);        }
+            gp.DrawImage(bitmap, pic1.Left - 10 * dx, pic1.Top - 20 * dx, pic1.Width, pic1.Height);        
+        }
+        private void But1_Click(object? sender, EventArgs e)
+        {
+            comboBox1.SelectedIndex -= 1;
+            if (comboBox1.SelectedIndex == 0)
+            {
+                but1.Visible = false;
+                but2.Visible = true;
+            }
+            else if (comboBox1.SelectedIndex == 9) 
+            { 
+                but2.Visible=false;
+                but1.Visible=true;
+            }
+            else 
+            {
+                but1.Visible = true;
+                but2.Visible = true;
+            }
+        }
+        private void But2_Click(object? sender, EventArgs e)
+        {
+            comboBox1.SelectedIndex += 1;
+            if (comboBox1.SelectedIndex == 0)
+            {
+                but1.Visible = false;
+                but2.Visible = true;
+            }
+            else if (comboBox1.SelectedIndex == 9)
+            {
+                but2.Visible = false;
+                but1.Visible = true;
+            }
+            else
+            {
+                but1.Visible = true;
+                but2.Visible = true;
+            }
+        }
     }
+
 }
